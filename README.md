@@ -1,24 +1,5 @@
 # Product Management API
 
-## Features
-- JWT Auth
-- REST API (CRUD)
-- MongoDB
-- Swagger Docs
-
-## Setup
-
-```bash
-npm install
-cp .env.example .env
-# update .env values
-npm run dev
-
-
-
-
-
-
 # 🛍️ Product API
 
 A simple Node.js + Express REST API for managing products with JWT authentication and MongoDB.
@@ -48,13 +29,13 @@ A simple Node.js + Express REST API for managing products with JWT authenticatio
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
-   cd product-api
+   git clone https://github.com/riteshrana87/product-api-test.git
+   cd product-api-test
 
 ## Setup
 
 npm install
-cp .env.example .env
+change the MongoDB database connection in your .env file, simply update the MONGO_URI value.
 # update .env values
 node server.js
 
